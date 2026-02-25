@@ -1,0 +1,40 @@
+Feature,Category
+log_return,Other
+simple_return,Other
+return_lag1,Lag
+return_lag2,Lag
+return_lag3,Lag
+return_lag5,Lag
+return_lag10,Lag
+price_to_ma7,Moving Average
+price_to_ma21,Moving Average
+price_to_ma50,Moving Average
+price_to_ma200,Moving Average
+volatility_20d,Volatility
+volatility_50d,Volatility
+hl_range,Volatility
+co_range,Volatility
+rsi_14,Momentum
+macd,Moving Average
+macd_signal,Moving Average
+macd_diff,Moving Average
+bb_width,Momentum
+bb_position,Momentum
+volume_change,Volatility
+volume_ma20,Moving Average
+volume_ratio,Volatility
+price_volume,Volatility
+pv_ratio,Volume
+day_of_week,Time
+month,Time
+quarter,Time
+day_of_month,Time
+week_of_year,Time
+day_sin,Time
+day_cos,Time
+month_sin,Time
+month_cos,Time
+spy_return,Market
+relative_return,Market
+market_corr_30d,Moving Average
+rolling_beta,Market

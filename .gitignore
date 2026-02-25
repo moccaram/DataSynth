@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Test/coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment/config secrets
+.env
+.env.*
+!.env.example
+
+# Local artifacts (optional to keep out of repo)
+# Uncomment if you don't want to version large generated files:
+# data/raw/*.csv
+# data/splits/*.npy
+# models/*.pkl
+# models/*.h5

@@ -1,0 +1,38 @@
+project:
+  name: DataSynth
+  task: stock_market_time_series_forecasting
+  target_symbol: AAPL
+  benchmark_symbol: SPY
+
+data:
+  start_date: 2010-01-01
+  end_date: 2024-12-31
+  tickers:
+    - SPY
+    - AAPL
+    - AMZN
+    - GOOGL
+    - MSFT
+
+splits:
+  train_pct: 0.79
+  val_pct: 0.07
+  test_pct: 0.14
+  chronological: true
+
+features:
+  target: target_return
+  lstm_sequence_length: 60
+
+models:
+  arima:
+    enabled: true
+  prophet:
+    enabled: true
+  lstm:
+    enabled: true
+
+artifacts:
+  models_dir: models
+  reports_figures_dir: reports/figures
+  reports_tables_dir: reports/tables
