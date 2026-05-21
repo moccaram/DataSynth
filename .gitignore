@@ -46,3 +46,10 @@ htmlcov/
 # data/splits/*.npy
 # models/*.pkl
 # models/*.h5
+
+# Defensive: prior working-copy folders that contained copyrighted PDFs
+# and a stale duplicate of the original notebook. Moved to ../DataSynth_archive/
+# at portfolio-polish time; gitignore here so they can't re-enter accidentally.
+DataSynth (Desktop)/
+Resource books/
+DataSynth_archive/
