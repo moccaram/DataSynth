@@ -136,7 +136,15 @@ End-to-end completes in ~15 min on CPU. Outputs land in
 [reports/tables/refined_model_comparison.csv](reports/tables/refined_model_comparison.csv)
 and [reports/figures/](reports/figures/).
 
-To launch the Gradio inference demo:
+## Try the live demo
+
+The XGBoost model is deployed as a Gradio app on Hugging Face Spaces:
+
+**[huggingface.co/spaces/moccaram/DataSynthis_ML_JobTask](https://huggingface.co/spaces/moccaram/DataSynthis_ML_JobTask)**
+
+Direct app URL: [moccaram-datasynthis-ml-jobtask.hf.space](https://moccaram-datasynthis-ml-jobtask.hf.space)
+
+Or run locally:
 
 ```bash
 .venv/bin/python src/app.py   # → http://127.0.0.1:7860
